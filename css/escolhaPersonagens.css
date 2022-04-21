@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+body{
+    width: auto;
+    height: 100%;
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    background-image: url(../imagens/escolhaPersonagens-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#personagens {
+    display: flex;
+    justify-content: center;
+}
+  
+#personagens > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+
+  }
+
+#personagens > div > img {
+    width: 100%;
+    height: auto;
+}
+
+#personagens > div > p {
+    font-size: 20px;
+}
+
+#hortan{
+    width: 20%;
+    height: auto;
+}
+
+#agwan{
+    width: 20%;
+    height: auto;
+}
+#bylim{
+    width: 20%;
+    height: auto;
+    position: relative;
+}
+h1 {
+    size: 100%;
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+}
+button {
+    background-color: rgb(113 174 177);
+    border: 1px inset #505050;
+    border-radius: 5px;
+    width: 85px;
+    height: 30px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    font-size: 13px;
+}
+
+footer {
+    height: 20px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    background-color: black;
+}
+  
+footer > p {
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
