@@ -28,8 +28,10 @@ a {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid gray;
     background-color: black;
+    border-radius: 5px;
+    opacity: 90%;
 
   }
 
@@ -46,36 +48,66 @@ a {
     width: 20%;
     height: auto;
 }
+#hortan:hover {
+    box-shadow: 0px 0px 0px 3px white, 0px 0px 0px 6px darkslategray;
+    background-color: #001;
+    transition: ease-in-out 300ms;
+}
 
-#agwan{
+#agwen{
     width: 20%;
     height: auto;
 }
+
+#agwen:hover {
+    box-shadow: 0px 0px 0px 3px white, 0px 0px 0px 6px darkslategray;
+    background-color: #001;
+    transition: ease-in-out 300ms;
+}
+
 #bylim{
     width: 20%;
     height: auto;
-    position: relative;
 }
+
+#bylim:hover {
+    box-shadow: 0px 0px 0px 3px white, 0px 0px 0px 6px darkslategray;
+    background-color: #001;
+    transition: ease-in-out 300ms;
+}
+
 h1 {
     size: 100%;
     text-align: center;
     font-family: 'MedievalSharp', cursive;
-}
-button {
-    background-color: rgb(113 174 177);
-    border: 1px inset #505050;
-    border-radius: 5px;
-    width: 85px;
-    height: 30px;
-    display: inline-block;
-    font-weight: bold;
-    font-size: 12px;
-    cursor: pointer;
-    transition: 0.4s;
+    font-size: 40px;
+    color: #45494d;
+    text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
 }
 
-button:hover {
-    font-size: 13px;
+button {
+    
+    display: inline-block;
+    transition: 0.4s;
+    margin-top: 50px; 
+    width: 150px;
+    height: 70px;
+    background: DarkGray;
+    line-height: 70px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 25px;
+    color: black;  
+    cursor:pointer;
+}
+
+button:hover{
+    box-shadow: 0px 0px 0px 3px white, 0px 0px 0px 6px darkslategray;
+    transition: ease-in-out 300ms;
+    font-size: 30px;
 }
 
 footer {
@@ -86,6 +118,7 @@ footer {
     right: 0px;
     margin-bottom: 0px;
     background-color: black;
+    text-align: center;
 }
   
 footer > p {
